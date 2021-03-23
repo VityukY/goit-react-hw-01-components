@@ -1,0 +1,26 @@
+.profile {
+border: 1px solid red;
+}
+.item .label 
+{margin-right: 10px;
+
+}
+.stat-list, .friendList {
+   list-style: none;
+}
+.statistics {
+   border: 1px solid blue;
+}
+
+.friendList .item{
+   display: flex;
+   flex-direction: column;
+}
+.friendList {display: flex;
+justify-content: space-around;
+border: 1px solid green;
+}
+.transaction-history{
+   border: 1px solid red;
+
+}
