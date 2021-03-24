@@ -3,7 +3,7 @@ import transactions from './transaction.json'
 
 const TransactionTable = () => {
    return (
-      <table class="transaction-history">
+      <table className="transaction-history">
   <thead>
     <tr>
       <th>Type</th>
@@ -22,8 +22,6 @@ const TransactionTable = () => {
 </table>
 
   )
-
-
 }
 
 export default TransactionTable
