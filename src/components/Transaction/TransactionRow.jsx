@@ -18,4 +18,5 @@ TransactionRow.propTypes = {
    currency: PropTypes.string.isRequired,
 
 };
+
 export default TransactionRow

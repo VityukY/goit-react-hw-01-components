@@ -1,4 +1,7 @@
-const Profile = (props) =>  {
+
+import PropTypes from "prop-types";
+
+const Profile = (props) => {
    return (
       <div className="profile">
       <div className="description">
@@ -29,4 +32,13 @@ const Profile = (props) =>  {
     </div>
 )
 }
+
+Profile.propTypes = {
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+
+};
+
+
 export default Profile
