@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const TransactionRow = (props) => {
    return (
-      <tr className = 'transationRow'>
+      <tr className='transationRow'>
          <td>{props.type}</td>
          <td>{props.amount}</td>
          <td>{props.currency}</td>

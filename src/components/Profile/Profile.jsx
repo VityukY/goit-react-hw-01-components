@@ -2,19 +2,19 @@
 import PropTypes from "prop-types";
 
 const Profile = (props) => {
-   return (
-      <div className="profile">
+  return (
+    <div className="profile">
       <div className="description">
         <img
           src={props.avatar}
           alt="Аватар пользователя"
           className="avatar"
         />
-          <h2 className="name">{ props.name}</h2>
-          <p className="tag"> {props.tag}</p>
+        <h2 className="name">{props.name}</h2>
+        <p className="tag"> {props.tag}</p>
         <p className="location">{props.location}</p>
       </div>
-    
+
       <ul className="stats">
         <li>
           <span className="label">Followers</span>
@@ -30,7 +30,7 @@ const Profile = (props) => {
         </li>
       </ul>
     </div>
-)
+  )
 }
 
 Profile.propTypes = {

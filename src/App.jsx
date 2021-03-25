@@ -8,16 +8,16 @@ import TransactionTable from './components/Transaction/TransactionTable'
 const App = () => {
    return (
       <div>
-      <Profile
-         name={user.name}
-         tag={user.tag}
-         location={user.location}
-         avatar={user.avatar}
-         stats={user.stats}
-      />
+         <Profile
+            name={user.name}
+            tag={user.tag}
+            location={user.location}
+            avatar={user.avatar}
+            stats={user.stats}
+         />
          <StatistiscList />
          <FriendList />
-         <TransactionTable/>
+         <TransactionTable />
       </div>
 
    )
