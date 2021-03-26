@@ -1,6 +1,4 @@
-.profile {
-border: 1px solid red;
-}
+
 .item .label 
 {margin-right: 10px;
 
@@ -12,14 +10,7 @@ border: 1px solid red;
    border: 1px solid blue;
 }
 
-.friendList .item{
-   display: flex;
-   flex-direction: column;
-}
-.friendList {display: flex;
-justify-content: space-around;
-border: 1px solid green;
-}
+
 .transaction-history{
    border: 1px solid red;
 
