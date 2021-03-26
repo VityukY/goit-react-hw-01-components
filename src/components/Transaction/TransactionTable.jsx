@@ -13,12 +13,13 @@ const TransactionTable = () => {
       </thead>
       <tbody className=''>
         {transactions.map(transaction => {
-          return (<TransactionRow
-            key={transaction.id}
-            type={transaction.type}
-            amount={transaction.amount}
-            currency={transaction.currency} />
-          )
+          return (
+          <TransactionRow 
+              key={transaction.id}
+              type={transaction.type}
+              amount={transaction.amount}
+              currency={transaction.currency}
+          />)
         })}
       </tbody>
     </table>
