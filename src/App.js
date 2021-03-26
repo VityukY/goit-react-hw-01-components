@@ -1,9 +1,8 @@
-import Profile from "../src/components/Profile/Profile";
-import user from "../src/components/Profile/user.json";
+import Profile from './components/Profile/Profile';
+import user from './components/Profile/user.json';
 import StatistiscList from './components/Statistics/StatisticsList';
-import FriendList from './components/FriendList/FriendList'
-import TransactionTable from './components/Transaction/TransactionTable'
-
+import FriendList from './components/FriendList/FriendList';
+import TransactionTable from './components/Transaction/TransactionTable';
 
 const App = () => {
    return (
@@ -19,8 +18,7 @@ const App = () => {
          <FriendList />
          <TransactionTable />
       </div>
+   );
+};
 
-   )
-}
-
-export default App
+export default App;
